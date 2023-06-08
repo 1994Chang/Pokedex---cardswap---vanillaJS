@@ -34,7 +34,6 @@ const arr = [
 
     cardDiv.addEventListener('click', (e)=>{
         if(e.currentTarget.parentElement === rightcard){
-            alert("called");
             leftcard.appendChild(cardDiv);
         }else{
             rightcard.appendChild(cardDiv);
